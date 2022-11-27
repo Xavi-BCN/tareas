@@ -11,7 +11,7 @@ function Tarea ({ id, texto, completada, completarTarea, eliminarTarea }){
         {texto}
       </div>
       <div className="tarea-contenedor-iconos"
-        onClick={() => elemininarTarea(id)} >
+        onClick={() => eliminarTarea(id)} >
         <img
           src={cancelar}
           alt="Icon"
